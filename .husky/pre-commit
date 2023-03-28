@@ -1,6 +1,4 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-yarn run prettier
-yarn run lint
-yarn run type-check
+yarn run lint:stage
