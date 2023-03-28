@@ -15,7 +15,18 @@ module.exports = {
     'subject-full-stop': [2, 'never', '.'],
     'type-case': [2, 'always', 'lower-case'],
     'type-empty': [2, 'never'],
-    'type-enum': [2, 'always', ['✨', '🐛', '📚', '💎', '♻️', '🐙']],
+    'type-enum': [
+      2,
+      'always',
+      [
+        '✨ Features',
+        '🐛 Bug Fixes',
+        '📚 Documentation',
+        '💎 Code Styles',
+        '♻️ Code Refactoring',
+        '🐙 Github configuration',
+      ],
+    ],
   },
   prompt: {
     questions: {
